@@ -1,0 +1,35 @@
+header{
+    background-color: brown;
+    text-align: center;
+    font-family: 
+}
+nav{
+    background-color: aqua;
+}
+section{
+    background-color: blanchedalmond;
+    height: 500px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    height: 500px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row2{
+    float: left;
+    width: 33.33%;
+    background-color: azure;
+}
+.column:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    background-color: blue;
+}
