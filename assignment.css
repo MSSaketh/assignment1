@@ -1,13 +1,14 @@
 
 nav{
     margin-top: 15px;
+    
 
 }
 nav li{
     display: inline;
     margin-left: 0;
     margin-right: 30px;
-    
+    text-decoration-color: aliceblue;
 }
 header{
     background-color: none;
