@@ -1,71 +1,47 @@
-
-nav{
-    margin-top: 15px;
-    
+.wrap{
+    height: 100px;    
+}
+header{
+    position: fixed;
+    background-color: aqua;
+    top: 3px;
+    height: 100px;
 
 }
 nav li{
     display: inline;
-    margin-left: 0;
-    margin-right: 30px;
-    text-decoration-color: aliceblue;
+    margin-left: 0px;
+    margin-right: 40px;
 }
-header{
-    background-color: none;
-    position: fixed;
-    height: 100px;
+a:hover{
+    text-decoration: none;
 }
-.wrap1{
-    padding-top: 100px;
-    height: 300px;
+
+.hero{
+    height: 500px;
     background-image: url("oneplus6.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 90%
-}
-
-section{
-    padding: 0px;
-    
- 
+article{
     height: auto;
- 
- }
+    background-color: aliceblue;
+    font-style: italic;
+}
+.one{
+    background-color: aqua;
+}
+.wrap2{
+    background-color: aliceblue;
+    height: auto;
+}
 footer{
-    background-color: lawngreen;
-    margin-right: 100px;
-
+    background-color: aqua;
+    height: 20px;
 }
 footer li{
-    display: inline;
-    margin-left: 0;
-    margin-right: 100px;
-    text-decoration: none;
+    	margin: auto;
+	display:inline;
+	padding-right: 20px;
 }
-.col{
-    height: auto;
-    background-color: aqua;
-    margin-bottom: 10px;
- }
- 
- .row{
-    width: 30%;
-    margin-right: 10px;
-    background-color: brown;
-    height: auto;
-    float:  left;
-    width: 33.33%;
- }
-.r1{
-height: 160px;
-background-color: darkgreen;
-}
-
-
