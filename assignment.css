@@ -1,35 +1,70 @@
-header{
-    background-color: brown;
-    text-align: center;
-    font-family: 
-}
+
 nav{
-    background-color: aqua;
+    margin-top: 15px;
+
 }
+nav li{
+    display: inline;
+    margin-left: 0;
+    margin-right: 30px;
+    
+}
+header{
+    background-color: none;
+    position: fixed;
+    height: 100px;
+}
+.wrap1{
+    padding-top: 100px;
+    height: 300px;
+    background-image: url("oneplus6.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%
+}
+
 section{
-    background-color: blanchedalmond;
-    height: 500px;
-}
-.column {
-    float: left;
-    width: 33.33%;
-    height: 500px;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.row2{
-    float: left;
-    width: 33.33%;
-    background-color: azure;
-}
-.column:after{
-    content: "";
-    display: table;
-    clear: both;
-}
+    padding: 0px;
+    
+ 
+    height: auto;
+ 
+ }
 footer{
-    background-color: blue;
+    background-color: lawngreen;
+    margin-right: 100px;
+
 }
+footer li{
+    display: inline;
+    margin-left: 0;
+    margin-right: 100px;
+    text-decoration: none;
+}
+.col{
+    height: auto;
+    background-color: aqua;
+    margin-bottom: 10px;
+ }
+ 
+ .row{
+    width: 30%;
+    margin-right: 10px;
+    background-color: brown;
+    height: auto;
+    float:  left;
+    width: 33.33%;
+ }
+.r1{
+height: 160px;
+background-color: darkgreen;
+}
+
+
