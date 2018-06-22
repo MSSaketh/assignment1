@@ -13,6 +13,7 @@ nav li {
   margin-right: 20px;
   font-size: 15px;
   font-family: monospace;
+  text-align: justify;
 }
 a:hover {
   color: red;
